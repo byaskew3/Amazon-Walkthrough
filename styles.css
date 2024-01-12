@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    width: 160px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+form {
+    border: 2px solid rgba(223, 223, 223, 0.706);
+    border-radius: 5px;
+    padding: 10px 20px 20px 20px;
+}
+
+h2 {
+    font-size: 32px;
+    margin: 10px;
+}
+
+input {
+    width: 100%;
+    margin: 10px 0;
+    padding: 6px;
+}
+
+.pass-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+.pass-container label {
+    margin-left: 40px;
+}
+
+.continue-btn {
+    width: 100%;
+    margin-top: 16px;
+    margin-bottom: 20px;
+    background-color: royalblue;
+    color: white;
+    padding: 6px 20px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+}
+
+.need-help {
+    margin-left: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.ct-container {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.new-to-ct {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.612);
+    line-height: 0.1em;
+    margin: 20px auto;
+    color: rgba(128, 128, 128, 0.612);
+}
+
+span {
+    background-color: #fff;
+    padding: 0 10px;
+}
+
+.create-btn {
+    width: 100%;
+    padding: 6px 20px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    border-top: 2px solid rgba(128, 128, 128, 0.612);
+}
+
+.all-links {
+    margin-top: 40px;
+}
+
+.link {
+    margin: 20px;
+}
+
+.copyright {
+    margin-top: 30px;
+}
+
+.triangle {
+    font-size: 10px;
+}
